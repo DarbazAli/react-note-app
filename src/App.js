@@ -2,12 +2,14 @@ import React from "react";
 import { render } from "react-dom";
 import Note from "./components/Note";
 import NewNoteButton from "./components/NewNoteButton";
+import NoteList from "./components/NoteList";
 
 const App = () => {
   return (
     <div>
       <NewNoteButton />
       {/* <Note /> */}
+      <NoteList />
     </div>
   );
 };
