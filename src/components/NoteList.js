@@ -7,6 +7,12 @@ const noteList = [
       desc: "Note description #1",
       date: new Date().toDateString(),
     },
+
+    {
+        title: "Sample note #2",
+        desc: "Note description #2",
+        date: new Date().toDateString(),
+      },
 ];
 
 const store = window.localStorage;
