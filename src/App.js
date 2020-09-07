@@ -31,8 +31,9 @@ const App = () => {
   return (
     <div>
       <NewNoteButton />
-      {/* <Note /> */}
+      
       <NoteList notes={list}/>
+      <Note />
     </div>
   );
 };

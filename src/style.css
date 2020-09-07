@@ -45,3 +45,11 @@ button {
 .note-item p {
     opacity: 0.8;
 }
+
+
+.note_editor {
+    width: 300px;
+    height: 400px;
+    /* float: right; */
+    /* margin-top: -200px; */
+}
