@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Note = () => {
+const Note = ({value}) => {
     return (
-        <textarea  className="note_editor"/>
+        <textarea defaultValue={value} className="note_editor"/>
     )
 }
 
